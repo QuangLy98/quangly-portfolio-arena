@@ -1,0 +1,356 @@
+@charset "utf-8";
+/*css document*/
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&display=swap');
+</style>
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  section{
+    width:100%;
+    min-height:700px
+  }
+#home{
+  width:100%;
+  min-height:500px
+}
+  .navbar .navbar-brand{
+    color: black;
+    font-weight: bold
+  }
+
+  .navbar.navbar-brand:hover{
+    color:red;
+    background-color:black
+  }
+  .navbar .nav .nav-item .nav-link:active{
+    background-color: pink;
+    color:white
+  }
+  .navbar .nav .nav-item .nav-link:hover{
+    color:white;
+    background-color:grey
+  }
+
+  .navbar .nav .nav-item .nav-link:active, .nav-link:focus{
+    background-color:black;
+    color:white
+  }
+
+  @media (max-width:480px){
+    .navbar .navbar-brand{
+        justify-content:center;
+        align-item:center;
+
+    }
+    .navbar{
+        display:flex
+        justify-content: center;
+        align-item:center;
+        padding-top:120px
+    }
+  }
+
+  .avatar{
+    width:20%;
+    height:10%;
+    border-radius: 10%;
+    border:none
+  }
+  
+
+  .contact-btn {
+    background-color: black;
+    color:white;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    cursor: pointer;
+    padding-top:5px;
+    padding-right: 20px;
+    padding-left:20px
+  
+  }
+
+  body{
+    padding-top:50px;
+  }
+ 
+  .myname:hover{
+    color: #ccf049;
+
+  }
+
+/*Color*/
+  .mauchu1{
+    color:#ccf049
+  }
+
+  .maunen1{
+    background-color:#ccf049
+  }
+
+  .mauchu2{
+    color:#bee635
+  }
+
+  .maunen2{
+    background-color:#bee635
+  }
+
+  .mauchu3{
+    color:#e7f99d
+  }
+  .maunen3{
+    background-color:#e7f99d
+  }
+  .mauchu4{
+    color:#f3fccb
+  }
+  .maunen4{
+    background-color:#f3fccb
+  }
+  .mauchudam{
+    color:#7ca30d
+  }
+  .maunendam{
+    background-color:#7ca30d
+  }
+  .mauchuden{
+    color:black
+  }
+  .maunenden{
+    background-color:black;
+    border: none;
+  }
+  .mauchutoi{
+    color:rgb(51, 50, 50)
+  }
+  .maunentoi{
+    background-color: rgb(51, 50, 50)
+  }
+
+  .mauchutrang{
+    color:white
+  }
+  .maunentrang{
+    background-color:white
+  }
+
+  /*footer*/
+  #footer h2{
+    color: black;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 3%;
+    padding-top:5%
+  }
+
+  #footer a{
+    color:black;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+  }
+  #footer a:hover{
+    color:#7ca30d;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+  }
+
+    #footer1{
+      padding-right: 3%;
+      margin-right: 3%;
+    }
+    #footer2{
+      padding-left: 3%;
+      margin-left: 3%;
+    }
+    .nutsubmit{
+      color:white;
+      background-color: black;
+      border-radius: 25px;
+    }
+    .nutsubmit:hover{
+      background-color: #ccf049;
+      color: black;
+      border-radius: 25px;
+    }
+
+/*Services*/
+body {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: #f8f8f8;
+}
+
+.card {
+  background: white;
+  width: 100%;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border:none
+}
+
+.title {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 16px;
+  text-emphasis: center;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.2s;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.item:hover {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.icon-circle {
+  background-color: #e4f88b;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+  font-size: 20px;
+}
+
+.text-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.subtext {
+  color: #666;
+  font-size: 13px;
+}
+
+.arrow {
+  font-size: 18px;
+  color: #333;
+}
+
+.view-more {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.view-more a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.view-more a:hover {
+  text-decoration: underline;
+}
+
+/*Chart*/
+.body-chart {
+  background-color: white;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.card-chart {
+  background: white;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  align-items:center;
+}
+
+.chart-container-chart {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin:  auto;
+}
+
+.chart-center-chart {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: 600;
+  width: 220px;
+  height: 220px;
+}
+
+.legend-chart-chart {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.legend-item-chart {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  font-size: 14px;
+  margin-top:2%
+}
+
+.legend-label-chart {
+  display: flex;
+  align-items: center;
+}
+
+.dot-chart {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+#expenseChart{
+  height: 40%;
+  width: 40%;
+  align-items: center;
+  justify-items: center;
+  margin: auto;
+  margin-bottom: 5%;
+  Margin-top:5%
+
+
+}
